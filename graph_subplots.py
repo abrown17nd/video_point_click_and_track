@@ -45,7 +45,7 @@ def plot_3x3_trajectories(df: pd.DataFrame):
 
 # Example usage
 if __name__ == "__main__":
-    filepath = 'compiled_data/compiled_data_20241106_134608_modified.csv'  # Path to your CSV file
+    filepath = 'compiled_data/compiled_data.csv'  # Path to your CSV file
     df = load_data(filepath)
 
     # Plot the 3x3 grid of trajectories
